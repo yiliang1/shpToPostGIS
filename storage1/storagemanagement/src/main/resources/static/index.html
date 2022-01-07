@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>shp入库postGIS</title>
+</head>
+<body>
+   <form action="/rest/storageshp/import" method="POST">
+       导入类型 (file/directory):<br>
+       <input type="text" name="inputType" value="file" style="width: 400px">
+       <br><br>
+       入库postgis后的图层名:<br>
+       <input type="text" name="typeName" value="" style="width: 400px">
+       <br><br>
+       shp文件完整路径:<br>
+       <input type="text" name="shpPath" value="" style="width: 400px">
+       <br><br>
+       shp属性文件编码:<br>
+       <input type="text" name="encoding" value="GBK" style="width: 200px">
+       <br><br>
+       自定义坐标坐标系编码:<br>
+       <input type="text" name="espgCode" value="" style="width: 200px">
+       <br><br>
+       <input type="submit" value="提交">
+   </form>
+   <p>路径在windows使用的是\ linux使用的是/，在java的代码开发中\是代表转义字符的,
+       /才是代表路径符号 因此windows路径D:\test可以一下表示D:/test或D:\\testasp 的页面。</p>
+    <p>http://localhost:9001/zipfile 压缩配置的路径，get方式</p>
+</body>
+</html>

@@ -1,0 +1,157 @@
+2022-01-05 14:57:06.971  INFO 13980 --- [main] c.t.s.StoragemanagementApplication       : Starting StoragemanagementApplication using Java 1.8.0_191 on SKY-20200418VMF with PID 13980 (E:\dyl\工作项目\TeleGIS\storage1\storagemanagement\target\classes started by Administrator in E:\dyl\工作项目\TeleGIS\storage1)
+2022-01-05 14:57:07.063  INFO 13980 --- [main] c.t.s.StoragemanagementApplication       : No active profile set, falling back to default profiles: default
+2022-01-05 14:57:10.447  INFO 13980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9111 (http)
+2022-01-05 14:57:10.465  INFO 13980 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-05 14:57:10.468  INFO 13980 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-01-05 14:57:10.752  INFO 13980 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-05 14:57:10.753  INFO 13980 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3389 ms
+2022-01-05 14:57:12.250  INFO 13980 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@38bc5ac0, org.springframework.security.web.context.SecurityContextPersistenceFilter@d969452, org.springframework.security.web.header.HeaderWriterFilter@6684f7f2, org.springframework.security.web.csrf.CsrfFilter@68d6f48e, org.springframework.security.web.authentication.logout.LogoutFilter@62058742, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@12e5d3e1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@356b6b5d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6ef037e4, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2b682e9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@74f4a2ba, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2c8a445b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@79d63a4f, org.springframework.security.web.session.SessionManagementFilter@505d2bac, org.springframework.security.web.access.ExceptionTranslationFilter@7af0d91b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4e94669c]
+2022-01-05 14:57:12.355  INFO 13980 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-05 14:57:12.955  INFO 13980 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-01-05 14:57:13.324  INFO 13980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9111 (http) with context path ''
+2022-01-05 14:57:13.326  INFO 13980 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-01-05 14:57:13.366  INFO 13980 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-01-05 14:57:13.452  INFO 13980 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-01-05 14:57:13.806  INFO 13980 --- [main] c.t.s.StoragemanagementApplication       : Started StoragemanagementApplication in 8.393 seconds (JVM running for 14.038)
+2022-01-05 14:58:21.338  INFO 13980 --- [http-nio-9111-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-05 14:58:21.338  INFO 13980 --- [http-nio-9111-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-05 14:58:21.345  INFO 13980 --- [http-nio-9111-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2022-01-05 14:58:30.613  INFO 13980 --- [http-nio-9111-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-05 14:58:30.752  INFO 13980 --- [http-nio-9111-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-05 14:58:30.769 DEBUG 13980 --- [http-nio-9111-exec-4] c.t.s.mapper.UserMapper.findByUsername   : ==>  Preparing: select * from common_user where username = ? 
+2022-01-05 14:58:30.785 DEBUG 13980 --- [http-nio-9111-exec-4] c.t.s.mapper.UserMapper.findByUsername   : ==> Parameters: admin(String)
+2022-01-05 14:58:30.995 DEBUG 13980 --- [http-nio-9111-exec-4] c.t.s.mapper.UserMapper.findByUsername   : <==      Total: 1
+2022-01-05 14:58:31.022 DEBUG 13980 --- [http-nio-9111-exec-4] c.t.s.m.UserRoleMapper.findByUserId      : ==>  Preparing: select * from common_user_role where user_id=? 
+2022-01-05 14:58:31.023 DEBUG 13980 --- [http-nio-9111-exec-4] c.t.s.m.UserRoleMapper.findByUserId      : ==> Parameters: 1(Integer)
+2022-01-05 14:58:31.029 DEBUG 13980 --- [http-nio-9111-exec-4] c.t.s.mapper.UserMapper.getUserById      : ====>  Preparing: select * from common_user where id = ? 
+2022-01-05 14:58:31.031 DEBUG 13980 --- [http-nio-9111-exec-4] c.t.s.mapper.UserMapper.getUserById      : ====> Parameters: 1(Integer)
+2022-01-05 14:58:31.032 DEBUG 13980 --- [http-nio-9111-exec-4] c.t.s.mapper.UserMapper.getUserById      : <====      Total: 1
+2022-01-05 14:58:31.033 DEBUG 13980 --- [http-nio-9111-exec-4] c.t.s.mapper.RoleMapper.findById         : ====>  Preparing: SELECT * FROM common_role WHERE id = ? 
+2022-01-05 14:58:31.034 DEBUG 13980 --- [http-nio-9111-exec-4] c.t.s.mapper.RoleMapper.findById         : ====> Parameters: 1(Integer)
+2022-01-05 14:58:31.036 DEBUG 13980 --- [http-nio-9111-exec-4] c.t.s.mapper.RoleMapper.findById         : <====      Total: 1
+2022-01-05 14:58:31.037 DEBUG 13980 --- [http-nio-9111-exec-4] c.t.s.m.UserRoleMapper.findByUserId      : <==      Total: 1
+2022-01-05 14:59:57.398 DEBUG 13980 --- [http-nio-9111-exec-2] c.t.s.mapper.UserMapper.findByUsername   : ==>  Preparing: select * from common_user where username = ? 
+2022-01-05 14:59:57.399 DEBUG 13980 --- [http-nio-9111-exec-2] c.t.s.mapper.UserMapper.findByUsername   : ==> Parameters: admin(String)
+2022-01-05 14:59:57.401 DEBUG 13980 --- [http-nio-9111-exec-2] c.t.s.mapper.UserMapper.findByUsername   : <==      Total: 1
+2022-01-05 14:59:57.402 DEBUG 13980 --- [http-nio-9111-exec-2] c.t.s.m.UserRoleMapper.findByUserId      : ==>  Preparing: select * from common_user_role where user_id=? 
+2022-01-05 14:59:57.402 DEBUG 13980 --- [http-nio-9111-exec-2] c.t.s.m.UserRoleMapper.findByUserId      : ==> Parameters: 1(Integer)
+2022-01-05 14:59:57.403 DEBUG 13980 --- [http-nio-9111-exec-2] c.t.s.mapper.UserMapper.getUserById      : ====>  Preparing: select * from common_user where id = ? 
+2022-01-05 14:59:57.403 DEBUG 13980 --- [http-nio-9111-exec-2] c.t.s.mapper.UserMapper.getUserById      : ====> Parameters: 1(Integer)
+2022-01-05 14:59:57.405 DEBUG 13980 --- [http-nio-9111-exec-2] c.t.s.mapper.UserMapper.getUserById      : <====      Total: 1
+2022-01-05 14:59:57.405 DEBUG 13980 --- [http-nio-9111-exec-2] c.t.s.mapper.RoleMapper.findById         : ====>  Preparing: SELECT * FROM common_role WHERE id = ? 
+2022-01-05 14:59:57.406 DEBUG 13980 --- [http-nio-9111-exec-2] c.t.s.mapper.RoleMapper.findById         : ====> Parameters: 1(Integer)
+2022-01-05 14:59:57.407 DEBUG 13980 --- [http-nio-9111-exec-2] c.t.s.mapper.RoleMapper.findById         : <====      Total: 1
+2022-01-05 14:59:57.408 DEBUG 13980 --- [http-nio-9111-exec-2] c.t.s.m.UserRoleMapper.findByUserId      : <==      Total: 1
+2022-01-05 16:00:08.287  INFO 13980 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-01-05 16:00:08.293  INFO 13980 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-01-05 16:37:47.797  INFO 12092 --- [main] c.t.s.StoragemanagementApplication       : Starting StoragemanagementApplication using Java 1.8.0_191 on SKY-20200418VMF with PID 12092 (E:\dyl\工作项目\TeleGIS\storage1\storagemanagement\target\classes started by Administrator in E:\dyl\工作项目\TeleGIS\storage1)
+2022-01-05 16:37:47.803  INFO 12092 --- [main] c.t.s.StoragemanagementApplication       : No active profile set, falling back to default profiles: default
+2022-01-05 16:37:50.335  INFO 12092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9111 (http)
+2022-01-05 16:37:50.349  INFO 12092 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-05 16:37:50.350  INFO 12092 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-01-05 16:37:50.574  INFO 12092 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-05 16:37:50.574  INFO 12092 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2682 ms
+2022-01-05 16:37:51.739  INFO 12092 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6e068ac9, org.springframework.security.web.context.SecurityContextPersistenceFilter@57e4b86c, org.springframework.security.web.header.HeaderWriterFilter@9729a97, org.springframework.security.web.csrf.CsrfFilter@28bf82d9, org.springframework.security.web.authentication.logout.LogoutFilter@12fccff0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2c8a445b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@589dfa6f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3d0352, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@710ae6a7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@64bba0eb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4c56644f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@bb6f3f7, org.springframework.security.web.session.SessionManagementFilter@36463b09, org.springframework.security.web.access.ExceptionTranslationFilter@37d0d373, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@892af0e]
+2022-01-05 16:37:51.771  INFO 12092 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-05 16:37:51.955  INFO 12092 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-01-05 16:37:52.154  INFO 12092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9111 (http) with context path ''
+2022-01-05 16:37:52.156  INFO 12092 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-01-05 16:37:52.183  INFO 12092 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-01-05 16:37:52.250  INFO 12092 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-01-05 16:37:52.516  INFO 12092 --- [main] c.t.s.StoragemanagementApplication       : Started StoragemanagementApplication in 5.429 seconds (JVM running for 9.135)
+2022-01-05 16:40:23.534  INFO 12092 --- [http-nio-9111-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-05 16:40:23.535  INFO 12092 --- [http-nio-9111-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-05 16:40:23.537  INFO 12092 --- [http-nio-9111-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-01-05 16:40:28.517  INFO 12092 --- [http-nio-9111-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-05 16:40:28.648  INFO 12092 --- [http-nio-9111-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-05 16:40:28.657 DEBUG 12092 --- [http-nio-9111-exec-3] c.t.s.mapper.UserMapper.findByUsername   : ==>  Preparing: select * from common_user where username = ? 
+2022-01-05 16:40:28.673 DEBUG 12092 --- [http-nio-9111-exec-3] c.t.s.mapper.UserMapper.findByUsername   : ==> Parameters: admin(String)
+2022-01-05 16:40:28.689 DEBUG 12092 --- [http-nio-9111-exec-3] c.t.s.mapper.UserMapper.findByUsername   : <==      Total: 1
+2022-01-05 16:40:28.699 DEBUG 12092 --- [http-nio-9111-exec-3] c.t.s.m.UserRoleMapper.findByUserId      : ==>  Preparing: select * from common_user_role where user_id=? 
+2022-01-05 16:40:28.699 DEBUG 12092 --- [http-nio-9111-exec-3] c.t.s.m.UserRoleMapper.findByUserId      : ==> Parameters: 1(Integer)
+2022-01-05 16:40:28.703 DEBUG 12092 --- [http-nio-9111-exec-3] c.t.s.mapper.UserMapper.getUserById      : ====>  Preparing: select * from common_user where id = ? 
+2022-01-05 16:40:28.703 DEBUG 12092 --- [http-nio-9111-exec-3] c.t.s.mapper.UserMapper.getUserById      : ====> Parameters: 1(Integer)
+2022-01-05 16:40:28.704 DEBUG 12092 --- [http-nio-9111-exec-3] c.t.s.mapper.UserMapper.getUserById      : <====      Total: 1
+2022-01-05 16:40:28.704 DEBUG 12092 --- [http-nio-9111-exec-3] c.t.s.mapper.RoleMapper.findById         : ====>  Preparing: SELECT * FROM common_role WHERE id = ? 
+2022-01-05 16:40:28.704 DEBUG 12092 --- [http-nio-9111-exec-3] c.t.s.mapper.RoleMapper.findById         : ====> Parameters: 1(Integer)
+2022-01-05 16:40:28.705 DEBUG 12092 --- [http-nio-9111-exec-3] c.t.s.mapper.RoleMapper.findById         : <====      Total: 1
+2022-01-05 16:40:28.705 DEBUG 12092 --- [http-nio-9111-exec-3] c.t.s.m.UserRoleMapper.findByUserId      : <==      Total: 1
+2022-01-05 16:43:20.451 DEBUG 12092 --- [http-nio-9111-exec-9] c.t.s.mapper.UserMapper.findByUsername   : ==>  Preparing: select * from common_user where username = ? 
+2022-01-05 16:43:20.453 DEBUG 12092 --- [http-nio-9111-exec-9] c.t.s.mapper.UserMapper.findByUsername   : ==> Parameters: admin(String)
+2022-01-05 16:43:20.455 DEBUG 12092 --- [http-nio-9111-exec-9] c.t.s.mapper.UserMapper.findByUsername   : <==      Total: 1
+2022-01-05 16:43:20.456 DEBUG 12092 --- [http-nio-9111-exec-9] c.t.s.m.UserRoleMapper.findByUserId      : ==>  Preparing: select * from common_user_role where user_id=? 
+2022-01-05 16:43:20.456 DEBUG 12092 --- [http-nio-9111-exec-9] c.t.s.m.UserRoleMapper.findByUserId      : ==> Parameters: 1(Integer)
+2022-01-05 16:43:20.458 DEBUG 12092 --- [http-nio-9111-exec-9] c.t.s.mapper.UserMapper.getUserById      : ====>  Preparing: select * from common_user where id = ? 
+2022-01-05 16:43:20.458 DEBUG 12092 --- [http-nio-9111-exec-9] c.t.s.mapper.UserMapper.getUserById      : ====> Parameters: 1(Integer)
+2022-01-05 16:43:20.458 DEBUG 12092 --- [http-nio-9111-exec-9] c.t.s.mapper.UserMapper.getUserById      : <====      Total: 1
+2022-01-05 16:43:20.459 DEBUG 12092 --- [http-nio-9111-exec-9] c.t.s.mapper.RoleMapper.findById         : ====>  Preparing: SELECT * FROM common_role WHERE id = ? 
+2022-01-05 16:43:20.459 DEBUG 12092 --- [http-nio-9111-exec-9] c.t.s.mapper.RoleMapper.findById         : ====> Parameters: 1(Integer)
+2022-01-05 16:43:20.460 DEBUG 12092 --- [http-nio-9111-exec-9] c.t.s.mapper.RoleMapper.findById         : <====      Total: 1
+2022-01-05 16:43:20.461 DEBUG 12092 --- [http-nio-9111-exec-9] c.t.s.m.UserRoleMapper.findByUserId      : <==      Total: 1
+2022-01-05 16:47:54.804 DEBUG 12092 --- [http-nio-9111-exec-9] c.t.s.mapper.UserMapper.findByUsername   : ==>  Preparing: select * from common_user where username = ? 
+2022-01-05 16:47:54.805 DEBUG 12092 --- [http-nio-9111-exec-9] c.t.s.mapper.UserMapper.findByUsername   : ==> Parameters: admin(String)
+2022-01-05 16:47:54.809 DEBUG 12092 --- [http-nio-9111-exec-9] c.t.s.mapper.UserMapper.findByUsername   : <==      Total: 1
+2022-01-05 16:47:54.810 DEBUG 12092 --- [http-nio-9111-exec-9] c.t.s.m.UserRoleMapper.findByUserId      : ==>  Preparing: select * from common_user_role where user_id=? 
+2022-01-05 16:47:54.814 DEBUG 12092 --- [http-nio-9111-exec-9] c.t.s.m.UserRoleMapper.findByUserId      : ==> Parameters: 1(Integer)
+2022-01-05 16:47:54.816 DEBUG 12092 --- [http-nio-9111-exec-9] c.t.s.mapper.UserMapper.getUserById      : ====>  Preparing: select * from common_user where id = ? 
+2022-01-05 16:47:54.817 DEBUG 12092 --- [http-nio-9111-exec-9] c.t.s.mapper.UserMapper.getUserById      : ====> Parameters: 1(Integer)
+2022-01-05 16:47:54.818 DEBUG 12092 --- [http-nio-9111-exec-9] c.t.s.mapper.UserMapper.getUserById      : <====      Total: 1
+2022-01-05 16:47:54.819 DEBUG 12092 --- [http-nio-9111-exec-9] c.t.s.mapper.RoleMapper.findById         : ====>  Preparing: SELECT * FROM common_role WHERE id = ? 
+2022-01-05 16:47:54.819 DEBUG 12092 --- [http-nio-9111-exec-9] c.t.s.mapper.RoleMapper.findById         : ====> Parameters: 1(Integer)
+2022-01-05 16:47:54.819 DEBUG 12092 --- [http-nio-9111-exec-9] c.t.s.mapper.RoleMapper.findById         : <====      Total: 1
+2022-01-05 16:47:54.820 DEBUG 12092 --- [http-nio-9111-exec-9] c.t.s.m.UserRoleMapper.findByUserId      : <==      Total: 1
+2022-01-05 16:48:41.271  INFO 12092 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-01-05 16:48:41.275  INFO 12092 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-01-05 16:49:53.658  INFO 11100 --- [main] c.t.s.StoragemanagementApplication       : Starting StoragemanagementApplication using Java 1.8.0_191 on SKY-20200418VMF with PID 11100 (E:\dyl\工作项目\TeleGIS\storage1\storagemanagement\target\classes started by Administrator in E:\dyl\工作项目\TeleGIS\storage1)
+2022-01-05 16:49:53.662  INFO 11100 --- [main] c.t.s.StoragemanagementApplication       : No active profile set, falling back to default profiles: default
+2022-01-05 16:49:55.809  INFO 11100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9111 (http)
+2022-01-05 16:49:55.822  INFO 11100 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-05 16:49:55.823  INFO 11100 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-01-05 16:49:56.069  INFO 11100 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-05 16:49:56.070  INFO 11100 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2309 ms
+2022-01-05 16:49:57.123  INFO 11100 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-05 16:49:57.324  INFO 11100 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-01-05 16:49:57.615  INFO 11100 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ab33ca8, org.springframework.security.web.context.SecurityContextPersistenceFilter@316d30ad, org.springframework.security.web.header.HeaderWriterFilter@3313463c, org.springframework.security.web.csrf.CsrfFilter@7c4d1c7b, org.springframework.security.web.authentication.logout.LogoutFilter@5885e231, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3a88f6fb, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@13cc31ae, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@704d3b00, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5f45bc8e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@30d5e37c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5e3d2765, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@21e484b, org.springframework.security.web.session.SessionManagementFilter@176333ee, org.springframework.security.web.access.ExceptionTranslationFilter@5f935d49, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7d1f3fe9]
+2022-01-05 16:49:57.740  INFO 11100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9111 (http) with context path ''
+2022-01-05 16:49:57.742  INFO 11100 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-01-05 16:49:57.764  INFO 11100 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-01-05 16:49:57.822  INFO 11100 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-01-05 16:49:58.150  INFO 11100 --- [main] c.t.s.StoragemanagementApplication       : Started StoragemanagementApplication in 5.748 seconds (JVM running for 9.798)
+2022-01-05 16:50:25.157  INFO 11100 --- [http-nio-9111-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-05 16:50:25.157  INFO 11100 --- [http-nio-9111-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-05 16:50:25.159  INFO 11100 --- [http-nio-9111-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-01-05 16:50:42.995  INFO 11100 --- [http-nio-9111-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-05 16:50:43.463  INFO 11100 --- [http-nio-9111-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-05 16:50:43.474 DEBUG 11100 --- [http-nio-9111-exec-7] c.t.s.mapper.UserMapper.findByUsername   : ==>  Preparing: select * from common_user where username = ? 
+2022-01-05 16:50:43.492 DEBUG 11100 --- [http-nio-9111-exec-7] c.t.s.mapper.UserMapper.findByUsername   : ==> Parameters: admin(String)
+2022-01-05 16:50:43.510 DEBUG 11100 --- [http-nio-9111-exec-7] c.t.s.mapper.UserMapper.findByUsername   : <==      Total: 1
+2022-01-05 16:50:43.522 DEBUG 11100 --- [http-nio-9111-exec-7] c.t.s.m.UserRoleMapper.findByUserId      : ==>  Preparing: select * from common_user_role where user_id=? 
+2022-01-05 16:50:43.522 DEBUG 11100 --- [http-nio-9111-exec-7] c.t.s.m.UserRoleMapper.findByUserId      : ==> Parameters: 1(Integer)
+2022-01-05 16:50:43.524 DEBUG 11100 --- [http-nio-9111-exec-7] c.t.s.mapper.UserMapper.getUserById      : ====>  Preparing: select * from common_user where id = ? 
+2022-01-05 16:50:43.525 DEBUG 11100 --- [http-nio-9111-exec-7] c.t.s.mapper.UserMapper.getUserById      : ====> Parameters: 1(Integer)
+2022-01-05 16:50:43.525 DEBUG 11100 --- [http-nio-9111-exec-7] c.t.s.mapper.UserMapper.getUserById      : <====      Total: 1
+2022-01-05 16:50:43.526 DEBUG 11100 --- [http-nio-9111-exec-7] c.t.s.mapper.RoleMapper.findById         : ====>  Preparing: SELECT * FROM common_role WHERE id = ? 
+2022-01-05 16:50:43.526 DEBUG 11100 --- [http-nio-9111-exec-7] c.t.s.mapper.RoleMapper.findById         : ====> Parameters: 1(Integer)
+2022-01-05 16:50:43.527 DEBUG 11100 --- [http-nio-9111-exec-7] c.t.s.mapper.RoleMapper.findById         : <====      Total: 1
+2022-01-05 16:50:43.527 DEBUG 11100 --- [http-nio-9111-exec-7] c.t.s.m.UserRoleMapper.findByUserId      : <==      Total: 1
+2022-01-05 16:51:11.630  INFO 11100 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-01-05 16:51:11.634  INFO 11100 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-01-05 16:53:11.372  INFO 15156 --- [main] c.t.s.StoragemanagementApplication       : Starting StoragemanagementApplication using Java 1.8.0_191 on SKY-20200418VMF with PID 15156 (E:\dyl\工作项目\TeleGIS\storage1\storagemanagement\target\classes started by Administrator in E:\dyl\工作项目\TeleGIS\storage1)
+2022-01-05 16:53:11.378  INFO 15156 --- [main] c.t.s.StoragemanagementApplication       : No active profile set, falling back to default profiles: default
+2022-01-05 16:53:13.733  INFO 15156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9111 (http)
+2022-01-05 16:53:13.750  INFO 15156 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-05 16:53:13.751  INFO 15156 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-01-05 16:53:14.003  INFO 15156 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-05 16:53:14.003  INFO 15156 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2521 ms
+2022-01-05 16:53:15.012  INFO 15156 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-05 16:53:15.188  INFO 15156 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-01-05 16:53:15.364  INFO 15156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9111 (http) with context path ''
+2022-01-05 16:53:15.366  INFO 15156 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-01-05 16:53:15.389  INFO 15156 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-01-05 16:53:15.443  INFO 15156 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-01-05 16:53:15.940  INFO 15156 --- [main] c.t.s.StoragemanagementApplication       : Started StoragemanagementApplication in 5.401 seconds (JVM running for 9.568)
+2022-01-05 16:53:38.972  INFO 15156 --- [http-nio-9111-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-05 16:53:38.972  INFO 15156 --- [http-nio-9111-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-05 16:53:38.974  INFO 15156 --- [http-nio-9111-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-01-05 16:54:26.444  INFO 15156 --- [http-nio-9111-exec-7] hsqldb.db.HSQLDB6BD103EBD8.ENGINE        : dataFileCache open start
+2022-01-05 16:54:47.001  WARN 15156 --- [http-nio-9111-exec-7] org.geotools.jdbc                        : Fetching fields from Database

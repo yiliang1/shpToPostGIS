@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tlw.storagemanagement.mapper.UserMapper">
+
+    <resultMap id="BaseResultMap" type="com.tlw.storagemanagement.entity.User">
+        <result column="id" jdbcType="INTEGER" property="id" />
+        <result column="username" jdbcType="VARCHAR" property="userName" />
+        <result column="password" jdbcType="VARCHAR" property="passWord" />
+        <result column="realname" jdbcType="VARCHAR" property="realName" />
+        <result column="state" jdbcType="VARCHAR" property="state" />
+        <result column="gender" jdbcType="VARCHAR" property="gender" />
+        <result column="birth" jdbcType="VARCHAR" property="birth" />
+    </resultMap>
+
+    <select id="getUserById" resultType="com.tlw.storagemanagement.entity.User">
+        select * from common_user where id = #{id}
+    </select>
+
+    <select id="findByUsername" resultType="com.tlw.storagemanagement.entity.User">
+        select * from common_user where username = #{name}
+    </select>
+
+</mapper>

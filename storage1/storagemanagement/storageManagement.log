@@ -1,0 +1,8 @@
+2022-01-05 17:14:45.434  INFO 11004 --- [main] c.t.s.StoragemanagementApplicationTests  : Starting StoragemanagementApplicationTests using Java 1.8.0_191 on SKY-20200418VMF with PID 11004 (started by Administrator in E:\dyl\工作项目\TeleGIS\storage1\storagemanagement)
+2022-01-05 17:14:45.445  INFO 11004 --- [main] c.t.s.StoragemanagementApplicationTests  : No active profile set, falling back to default profiles: default
+2022-01-05 17:14:50.700  INFO 11004 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-05 17:14:51.426  INFO 11004 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-01-05 17:14:52.181  INFO 11004 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-01-05 17:14:52.298  INFO 11004 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-01-05 17:14:52.467  INFO 11004 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-01-05 17:14:53.138  INFO 11004 --- [main] c.t.s.StoragemanagementApplicationTests  : Started StoragemanagementApplicationTests in 8.565 seconds (JVM running for 10.446)

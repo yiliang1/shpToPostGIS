@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5f223ce2-989e-4140-b583-fcce18b07ba2" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="20cSqreCheb1tp1eVJYLQgPgu9R" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\dyl\工作项目\TeleGIS\storage1\storagemanagement\src\main\resources\error" />
+      <recent name="E:\dyl\工作项目\TeleGIS\storage1\storagemanagement\src\main\resources\static" />
+      <recent name="E:\dyl\工作项目\TeleGIS\storage\storagemanagement\src\main\resources" />
+      <recent name="E:\dyl\工作项目\TeleGIS\storage\storagemanagement\src\main\java\com\tlw\storagemanagement" />
+      <recent name="E:\dyl\工作项目\TeleGIS\storage\storagemanagement\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\dyl\工作项目\TeleGIS\storage1\storagemanagement\src\main\resources\db" />
+      <recent name="E:\dyl\工作项目\TeleGIS\storage1\storagemanagement\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="StoragemanagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="storagemanagement" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tlw.storagemanagement.StoragemanagementApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f223ce2-989e-4140-b583-fcce18b07ba2" name="Changes" comment="" />
+      <created>1636342578898</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636342578898</updated>
+      <workItem from="1636342580402" duration="21873000" />
+      <workItem from="1636805353106" duration="1696000" />
+      <workItem from="1636936491816" duration="1792000" />
+      <workItem from="1636980062578" duration="1246000" />
+      <workItem from="1637048714183" duration="1817000" />
+      <workItem from="1639035442867" duration="15155000" />
+      <workItem from="1639212127516" duration="4638000" />
+      <workItem from="1639356161973" duration="1167000" />
+      <workItem from="1639443036812" duration="1177000" />
+      <workItem from="1639529123198" duration="1166000" />
+      <workItem from="1639617552451" duration="6972000" />
+      <workItem from="1639702064426" duration="21155000" />
+      <workItem from="1639961973419" duration="29515000" />
+      <workItem from="1641365757551" duration="8363000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/storagemanagement/src/main/java/com/tlw/storagemanagement/common/OperationFeatureClass.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/storagemanagement/src/main/java/com/tlw/storagemanagement/common/OperationFeatureClass.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/storagemanagement/src/main/java/com/tlw/storagemanagement/common/OperationFeatureClass.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/storagemanagement/src/main/java/com/tlw/storagemanagement/common/OperationFeatureClass.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/storagemanagement/src/main/java/com/tlw/storagemanagement/common/OperationFeatureClass.java</url>
+          <line>138</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/storagemanagement/src/main/java/com/tlw/storagemanagement/service/StorageShpService.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/storagemanagement/src/main/java/com/tlw/storagemanagement/controller/StorageShpController.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/storagemanagement/src/main/java/com/tlw/storagemanagement/common/OperationFeatureClass.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/storagemanagement/src/main/java/com/tlw/storagemanagement/controller/StorageShpController.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/storagemanagement/src/main/java/com/tlw/storagemanagement/controller/StorageShpController.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/storagemanagement/src/main/java/com/tlw/storagemanagement/common/OperationFeatureClass.java</url>
+          <line>218</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.5.4/spring-boot-autoconfigure-2.5.4.jar!/org/springframework/boot/autoconfigure/web/servlet/error/DefaultErrorViewResolver.class</url>
+          <line>73</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/ClassLoader.java</url>
+          <line>1159</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/storagemanagement/src/main/java/com/tlw/storagemanagement/configruation/security/UserDetailsServiceImpl.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/storagemanagement/src/main/java/com/tlw/storagemanagement/configruation/security/AuthenticationProviderImpl.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,42 @@
+server:
+  port: 9111
+  servlet:
+    session:
+      timeout: 60
+com:
+  teleware:
+    postgis:
+      host: 10.0.4.14
+      port: 5432
+      user: postgres
+      pw: tlw1@#$
+      database: postgis_31_sample
+      schema: public
+spring:
+  application:
+    name: storageManagement
+  datasource:
+    url: jdbc:sqlite::resource:db/storage.db
+    username:
+    password:
+    driver-class-name: org.sqlite.JDBC
+logging:
+  level:
+    root: info
+    com.tlw.storagemanagement.mapper: debug
+  file:
+    name: storageManagement.log
+#    path: \var\storageManagement\log
+#    path: /var/storageManagement/log
+#    用于日志输出的格式
+#    pattern:
+#        console:
+#        file:
+# MyBatis配置
+mybatis:
+  mapper-locations: classpath:mapping/*Mapping.xml
+  type-aliases-package: com.tlw.storagemanagement.entity
+  configuration:
+    use-generated-keys: true
+    #开启驼峰命名
+    map-underscore-to-camel-case: true
